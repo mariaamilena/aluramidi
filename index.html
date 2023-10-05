@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" href="images/bateria.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="main.js" ></script>
 
 </head>
 <body>
@@ -21,17 +22,17 @@
     <h1>Alura Midi</h1>
 
     <section class="teclado">
-        <button class="tecla tecla_pom">Pom</button>
-        <button class="tecla tecla_clap">Clap</button>
-        <button class="tecla tecla_tim">Tim</button>
+        <button onclick="alert ('pom')" class="tecla tecla_pom">Pom</button>
+        <button onclick="alert ('clap')" class="tecla tecla_clap">Clap</button>
+        <button onclick="alert ('tim')" class="tecla tecla_tim">Tim</button>
 
-        <button class="tecla tecla_puff">Puff</button>
-        <button class="tecla tecla_splash">Splash</button>
-        <button class="tecla tecla_toim">Toim</button>
+        <button onclick="alert ('puff')" class="tecla tecla_puff">Puff</button>
+        <button onclick="alert ('splash')"class="tecla tecla_splash">Splash</button>
+        <button onclick="alert ('toim')" class="tecla tecla_toim">Toim</button>
 
-        <button class="tecla tecla_psh">Psh</button>
-        <button class="tecla tecla_tic">Tic</button>
-        <button class="tecla tecla_tom">Tom</button>
+        <button onclick="alert ('psh')"class="tecla tecla_psh">Psh</button>
+        <button onclick="alert ('tic')" class="tecla tecla_tic">Tic</button>
+        <button onclick="alert ('tom')" class="tecla tecla_tom">Tom</button>
     </section>
 
     <audio controls src="sounds/keyq.wav" id="som_tecla_pom"></audio>
